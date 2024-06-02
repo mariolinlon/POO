@@ -139,6 +139,11 @@
     <ClInclude Include="ActorCirculo.h" />
     <ClInclude Include="ActorIA.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Downloads\circulo.poo.png" />
+    <Image Include="..\..\..\..\..\..\Downloads\cruz.poo.png" />
+    <Image Include="..\..\..\..\..\..\Downloads\tablero.poo.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
