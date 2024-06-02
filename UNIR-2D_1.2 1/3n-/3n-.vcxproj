@@ -128,7 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="principal.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="ActorTablero.cpp" />
+    <ClCompile Include="ActorCruz.cpp" />
+    <ClCompile Include="ActorCirculo.cpp" />
+    <ClCompile Include="ActorIA.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActorTablero.h" />
+    <ClInclude Include="ActorCruz.h" />
+    <ClInclude Include="ActorCirculo.h" />
+    <ClInclude Include="ActorIA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
